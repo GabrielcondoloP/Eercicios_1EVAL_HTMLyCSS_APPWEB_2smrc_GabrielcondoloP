@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormulariosPractica</title>
+</head>
+<style>
+    h1 {
+        text-align: center;
+    }
+</style>
+
+<body style="background-color:rgb(228, 210, 151);">
+    <h1>FORMULARIO</h1>
+    <form action="ejemplo.php" method="get">
+        <fieldset>
+            <legend>Datos prsonales</legend>
+            <p>Nombre: <input type="text" name="nombre" size="35"></p>
+            <p>Apellidos: <input type="text" name="apellido" size="35"></p>
+            <p>Foto: <input type="file" name="photos"></p>
+            <p>Color Favorito: <input type="color" name="colorfav"> </p>
+            <p>Fecha de nacimiento: <input type="date" name="nacimiento"></p>
+            <p>Contraseña: <input type="password" name="password" size="20"></p>
+            <label for="phone">Nº de teléfono:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+            <p>Sexo:
+                <input type="radio" name="hm" value="h"> Hombre
+                <input type="radio" name="hm" value="m"> Mujer
+            </p>
+            <textarea name="texto" rows="4" cols="60" placeholder="Escriba su valoración"></textarea>
+            <p>
+                <input type="reset" value="Borrar" </p>
+        </fieldset>
+        <fieldset>
+            <legend>¿Tabajas?</legend>
+            <p>
+                <input type="radio" name="boton" value="1">Sí<br>
+                <input type="radio" name="boton" value="2">No<br>
+            </p>
+
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </p>
+    </form>
+</body>
+
+</html>
