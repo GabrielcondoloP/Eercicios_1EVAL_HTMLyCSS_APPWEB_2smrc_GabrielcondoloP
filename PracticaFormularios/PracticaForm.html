@@ -6,19 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FormulariosPractica</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+        body { background-color: rgb(230, 193, 138); }
+    </style>
 </head>
-<style>
-    h1 {
-        text-align: center;
-    }
-</style>
-
-<body style="background-color:rgb(228, 210, 151);">
+<body>
     <h1>FORMULARIO</h1>
     <form action="ejemplo.php" method="get">
         <fieldset>
             <legend>Datos prsonales</legend>
-            <p>Nombre: <input type="text" name="nombre" size="35"></p>
+            <p><label>Nombre: <input type="text" name="nombre" size="35"></label></p>
             <p>Apellidos: <input type="text" name="apellido" size="35"></p>
             <p>Foto: <input type="file" name="photos"></p>
             <p>Color Favorito: <input type="color" name="colorfav"> </p>
@@ -29,10 +29,12 @@
             <p>Sexo:
                 <input type="radio" name="hm" value="h"> Hombre
                 <input type="radio" name="hm" value="m"> Mujer
+                <input type="radio" name="hm" value="o"> Otro
             </p>
             <textarea name="texto" rows="4" cols="60" placeholder="Escriba su valoración"></textarea>
-            <p>
-                <input type="reset" value="Borrar" </p>
+
+            <p><input type="reset" value="Borrar"></p>
+
         </fieldset>
         <fieldset>
             <legend>¿Tabajas?</legend>
@@ -40,6 +42,17 @@
                 <input type="radio" name="boton" value="1">Sí<br>
                 <input type="radio" name="boton" value="2">No<br>
             </p>
+
+            <label for="nhijos">Número de hijos
+                <select name="nhijos" id="nhijos">
+                    <option value="">-</option>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+            </label>
 
         </fieldset>
         <p>
