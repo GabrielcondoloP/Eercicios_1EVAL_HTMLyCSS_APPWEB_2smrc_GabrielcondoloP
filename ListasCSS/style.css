@@ -1,13 +1,26 @@
 body{
-    background-color: rgb(160, 219, 226);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: larger;
+    background-color: rgb(240, 219, 219);
 }
 
-dt.textocolor1{
-    color: rgb(124, 248, 0);
-    background-color: aliceblue;
+dd{
+    color: rgb(0, 0, 0);
 }
-h1{
-    font-size: xx-large;
+
+dt mark{
+    background-color: blue;
+    color: mistyrose;
+    border-width: 1px;
+    border-style: dotted;
+    border-color: rgb(255, 0, 0);
 }
+ li{
+    list-style-type: square;
+    text-align: center;
+ }
+ p {
+    width: 600px;
+    height: 100px;
+    box-sizing: content-box;
+    border: red 5px solid;
+    text-align: center;
+  }
