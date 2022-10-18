@@ -1,0 +1,35 @@
+html{
+    
+}
+
+ body{
+    border-style: solid;
+    border-color: rgb(38, 187, 236);
+    background-color: rgb(131, 221, 171);
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    margin: 4px 7px 5px;   /*esto sive para configurar la distancia entre los bordes*/
+    /* los radius sirven para redondear las esquinas de las cajas*/
+}
+
+h1{
+    border-style: solid dotted dashed; /*podemos poner varias etiquetas que irán afectando en un distinto orden*/
+    border-color: crimson black darkblue magenta;
+    background-color: chartreuse;
+    color: beige;
+    border-width: 6px;
+}
+
+p{
+    text-align: center;
+    border: black 5px solid;
+    font-family: monospace;
+    border-top-right-radius: 20px ;
+    border-bottom-left-radius: 15px;
+    padding: 30px 33px; /*para hacer mas ancha la separacion entre los bordes*/
+    width: 300px; /*""*/
+    /*dependiendo donde pongamos los diferentes valores en un orden diferente alteraran una parte u otra con un orden especifico*/
+    
+}
+
+
