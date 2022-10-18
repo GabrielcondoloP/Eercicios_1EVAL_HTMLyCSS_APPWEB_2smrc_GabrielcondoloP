@@ -24,3 +24,7 @@ dt mark{
     border: red 5px solid;
     text-align: center;
   }
+
+  ul {
+    list-style-image: url("Img/check1.png");
+  }
