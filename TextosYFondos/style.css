@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(247, 247, 186);
+}
+
+h1.titulo{
+    text-align: center;
+    background-color: chartreuse;
+    border: 7px black solid 
+}
+
+p{
+    text-align: center;
+}
+
+hr{
+    width: 60%; height: 3px; 
+    background-color: red;
+    
+}
+
+hr.linea{
+    width: 80%; height: 2px; 
+    background-color: black;
+}
+
+span{
+    color: crimson;
+    font-style: oblique;
+}
+
+pre{
+    text-align: center;
+}
+
+cite{
+    text-align: center;
+}
+
+span.negrita{
+    font-weight: bold;
+}
