@@ -1,0 +1,30 @@
+
+
+li{
+    list-style: none;
+
+    display: inline; flex-direction: row-reverse wrap;
+    width: 100px; border: black 1px solid; margin: 2px;
+    border: none;
+}
+
+header{
+    height: 40%;
+}
+
+nav{
+    height: 40%;
+}
+
+main{
+    height: 20%;
+}
+
+aside{
+    height: 10%;
+}
+
+footer{
+    height: 20%;
+}
+
