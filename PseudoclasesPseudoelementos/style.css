@@ -1,13 +1,50 @@
-uu.p:first-child{
+main.p.si::first-child{
     color: rgb(107, 19, 189);
 }
 
-a:link{   /*para los enlaces que no han sido visitaados*/
+/*a:link{   /*para los enlaces que no han sido visitaados
     color: yellow;
     background-color: black;
 }
-
+*/
 a:visited{     /* para los enlaces que han sido visitados*/
     background-color: blue;  
     color: chartreuse;
+}
+
+a:hover{
+    background-color: black;
+    color: white;
+}
+
+p.no:hover {  /*esto es para que cuando el raton pase por encima, su fondo sea verde*/
+    background-color: rgb(136, 224, 19);
+    color: white;
+  }
+
+a:active {
+    background-color: black;
+    color: white;
+  }
+
+input:focus{  /*esto es pata que cuando pulsemos la caja para escribir, esta se vuelva crimson*/
+    background-color: crimson;
+    border: red;
+}  
+
+cite:lang(es) {   /*esto es para ajustaer el texto para las diferentes lenguas*/
+    color: rgb(209, 12, 166);
+  }
+  
+cite:lang(en) {
+    color: rgb(255, 60, 0);
+  }
+
+p.parrafo2::first-letter{
+    background-color: pink;
+  color: rgb(9, 255, 0);
+  float: left;
+  font-family: monospace;
+  font-size: 150%;
+
 }
