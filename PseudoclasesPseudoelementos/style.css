@@ -1,3 +1,8 @@
-main.p{
-    color: blueviolet;
+uu.p:first-child{
+    color: rgb(107, 19, 189);
+}
+
+a:link{   /*para os enlaces que no han sido visitaados*/
+    color: yellow;
+    background-color: black;
 }
