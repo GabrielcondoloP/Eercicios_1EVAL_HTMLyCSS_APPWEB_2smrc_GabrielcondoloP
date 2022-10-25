@@ -2,7 +2,12 @@ uu.p:first-child{
     color: rgb(107, 19, 189);
 }
 
-a:link{   /*para os enlaces que no han sido visitaados*/
+a:link{   /*para los enlaces que no han sido visitaados*/
     color: yellow;
     background-color: black;
+}
+
+a:visited{     /* para los enlaces que han sido visitados*/
+    background-color: blue;  
+    color: chartreuse;
 }
