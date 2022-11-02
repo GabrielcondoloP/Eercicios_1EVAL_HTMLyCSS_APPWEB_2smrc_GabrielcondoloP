@@ -48,3 +48,8 @@ p.parrafo2::first-letter{
   font-size: 150%;
 
 }
+
+li {
+  display: inline;
+  list-style-type: none;
+}
